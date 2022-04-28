@@ -13,7 +13,6 @@ super_classes = ['harry-potter/','jurassic-world/','marvel/','star-wars/']
 
 if not os.path.isdir(BASE_DIR + 'train/'):
   os.makedirs(BASE_DIR + 'train/')
-  os.makedirs(BASE_DIR + 'val/')
 
 #move files 
 
