@@ -11,6 +11,7 @@ Those are objects of the class keras.preprocessing.image.Imagedatagenerator(). I
 
 
 #Trainig
+
 I first set the train_batches and val_batches as subsets of the train_gen, both the train_batches and val_batches will receive data from our directory.
 
 I used the Adam optmizer and the Sparse cross entropy loss, both from the keras API. I used a callback for earlystopping tracking the val_accuracy of the model.
